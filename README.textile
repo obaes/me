@@ -1,7 +1,135 @@
-h1. This is the data for my blog
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivier Baës - Profil Professionnel</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+            border-radius: 5px;
+        }
+        h1 {
+            margin-bottom: 0;
+        }
+        .subtitle {
+            font-style: italic;
+            margin-top: 0;
+        }
+        .section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .job-date {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Olivier Baës</h1>
+        <p class="subtitle">Expert en IA & Data Opérationnelle</p>
+    </header>
 
-It is automatically available on GitHub.
+    <div class="section">
+        <h2>Coordonnées</h2>
+        <div class="contact-info">
+            <div class="contact-item">📍 38 rue Emile Racaud, 17000 La Rochelle, France</div>
+            <div class="contact-item">📞 +33 6 21 35 38 10</div>
+            <div class="contact-item">✉️ olivier.baes@gmail.com</div>
+            <div class="contact-item">🔗 <a href="https://www.linkedin.com/in/olivierbaes" target="_blank">LinkedIn</a></div>
+        </div>
+    </div>
 
-h1. License
+    <div class="section">
+        <h2>Expérience Professionnelle</h2>
+        <div class="job">
+            <p class="job-title">Business Owner IA & Operational Data - MAIF</p>
+            <p class="job-date">11/2020 - Présent</p>
+            <ul>
+                <li>Porte la vision et la constitution d'initiatives de données opérationnelles orientées vers l'IA et l'Innovation</li>
+                <li>Acculturation des métiers et construction de trajectoires de cas d'usage à valeur</li>
+                <li>Mise en œuvre opérationnelle d'un portefeuille d'initiatives stratégiques</li>
+                <li>Pilote les Product Owners portant la mise en œuvre d'initiatives data orientées valeur métier</li>
+                <li>Leadership Data & IA : culture, stratégie, onboarding, workshop/lab, communication & data speaker, réseau</li>
+            </ul>
+        </div>
+        <!-- Ajoutez les autres expériences professionnelles de la même manière -->
+    </div>
 
-The following directories and their contents are Copyright olivier baes
+    <div class="section">
+        <h2>Formation</h2>
+        <ul>
+            <li>2023 - Techniques de négociation</li>
+            <li>2021 - Devenir un Leader conscient TheCamp + Management des enjeux éthiques et juridiques de l'IA & data</li>
+            <li>2016 - Big Data specialization, UC San Diego - Coursera</li>
+            <li>2015 - Data Science start program, X Polytechnique executive</li>
+            <li>2000 - Maîtrise Mathématique & Informatique, Université de la Rochelle, France</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Intelligence Artificielle et Machine Learning</li>
+            <li>Data Science et Analytics</li>
+            <li>Gestion de projet et leadership</li>
+            <li>Innovation et transformation digitale</li>
+            <li>Business Intelligence</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Langues</h2>
+        <ul>
+            <li>Français (langue maternelle)</li>
+            <li>Anglais (courant)</li>
+            <li>Espagnol (notions)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Intérêts</h2>
+        <p>Tennis/Padel, Voyage, Golf, Running, Design & Architecture</p>
+    </div>
+</body>
+</html>
