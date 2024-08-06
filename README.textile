@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olivier Baës - Profil Professionnel</title>
+    <title>Profil de Olivier Baës</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
             color: #333;
             max-width: 800px;
@@ -15,8 +15,8 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #2c3e50;
-            color: #ecf0f1;
+            background-color: #005f73;
+            color: white;
             text-align: center;
             padding: 1em;
             border-radius: 5px;
@@ -24,76 +24,120 @@
         h1 {
             margin-bottom: 0;
         }
-        .subtitle {
-            font-style: italic;
-            margin-top: 0;
+        .contact-info {
+            background-color: #0a9396;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
         }
         .section {
             background-color: white;
-            margin: 20px 0;
             padding: 20px;
+            margin-top: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-        .job {
-            margin-bottom: 20px;
+            color: #005f73;
+            border-bottom: 2px solid #005f73;
+            padding-bottom: 5px;
         }
         .job-title {
             font-weight: bold;
-            color: #2980b9;
-        }
-        .job-date {
-            font-style: italic;
-            color: #7f8c8d;
+            color: #0a9396;
         }
         ul {
             padding-left: 20px;
-        }
-        .contact-info {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .contact-item {
-            margin: 10px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Olivier Baës</h1>
-        <p class="subtitle">Expert en IA & Data Opérationnelle</p>
     </header>
 
-    <div class="section">
-        <h2>Coordonnées</h2>
-        <div class="contact-info">
-            <div class="contact-item">📍 38 rue Emile Racaud, 17000 La Rochelle, France</div>
-            <div class="contact-item">📞 +33 6 21 35 38 10</div>
-            <div class="contact-item">✉️ olivier.baes@gmail.com</div>
-            <div class="contact-item">🔗 <a href="https://www.linkedin.com/in/olivierbaes" target="_blank">LinkedIn</a></div>
-        </div>
+    <div class="contact-info">
+        <p>LinkedIn : <a href="https://www.linkedin.com/in/olivierbaes" style="color: white;">linkedin.com/in/olivierbaes</a></p>
     </div>
 
     <div class="section">
         <h2>Expérience Professionnelle</h2>
-        <div class="job">
-            <p class="job-title">Business Owner IA & Operational Data - MAIF</p>
-            <p class="job-date">11/2020 - Présent</p>
+
+        <div>
+            <p class="job-title">Business Owner IA & Operational Data - MAIF (11/2020 - Présent)</p>
             <ul>
                 <li>Porte la vision et la constitution d'initiatives de données opérationnelles orientées vers l'IA et l'Innovation</li>
-                <li>Acculturation des métiers et construction de trajectoires de cas d'usage à valeur</li>
-                <li>Mise en œuvre opérationnelle d'un portefeuille d'initiatives stratégiques</li>
-                <li>Pilote les Product Owners portant la mise en œuvre d'initiatives data orientées valeur métier</li>
+                <li>Acculturation des métiers et construction de trajectoires de cas d'usage à valeur (automatisation, activation des données, services cognitifs, GenIA/LLM, gestion des connaissances et des processus, assistants augmentés, ...)</li>
+                <li>Mise en œuvre opérationnelle d'un portefeuille d'initiatives stratégiques en lien avec une tribu agile (50 ETP)</li>
+                <li>Dirige les Product Owners portant la mise en œuvre d'initiatives data orientées valeur métier</li>
                 <li>Leadership Data & IA : culture, stratégie, onboarding, workshop/lab, communication & data speaker, réseau</li>
             </ul>
         </div>
-        <!-- Ajoutez les autres expériences professionnelles de la même manière -->
+
+        <div>
+            <p class="job-title">Head of Datalab Group - MAIF (03/2017 - 11/2020)</p>
+            <ul>
+                <li>Mise en place du Datalab & livraison de projets basés sur diverses nouvelles capacités technologiques : Intelligence Artificielle, Machine Learning, Data Science, Data Analytics, Big Data, Data Storytelling, Data Culture, expérience d'apprentissage technologique, évangélisation & formation, innovation & startups</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">Global Head of Digital & Data Innovation - Europ Assistance Group / Generali (02/2015 - 03/2017)</p>
+            <ul>
+                <li>Programmes d'innovation du Groupe : PMO avec rapport direct au conseil d'administration du groupe, aux dirigeants, aux VP des lignes métier</li>
+                <li>Parrainage de cas d'utilisation où les technologies innovantes (IA, ML, Bot, DMP, Blockchain, Data science)</li>
+                <li>Animation d'une communauté d'innovation digitale, exploitation de l'écosystème externe pour stimuler la créativité et l'idéation</li>
+                <li>Liaison et coordination des interactions avec les accélérateurs, associations et plateformes de startups</li>
+                <li>Accélérateur d'entreprises par la définition de stratégies d'innovation, de processus et de nouveaux modèles économiques</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">Global Connected Solution manager - Europ Assistance Group / Generali (05/2014 - 06/2015)</p>
+            <ul>
+                <li>Gestion des programmes de véhicules connectés pour les constructeurs automobiles et les flottes (FCA, Infiniti, TME, Renault,...)</li>
+                <li>PMO de solution de service d'assistance paneuropéenne (bCall, eCall, véhicule volé, accident)</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">Global Business Intelligence manager - Europ Assistance Group / Generali (01/2013 - 03/2015)</p>
+            <ul>
+                <li>Gestion d'une feuille de route Business Intelligence, direction d'une équipe BI de 4 analystes de données & 10+ ingénieurs de données</li>
+                <li>Responsable de la livraison de reportings & analyses ad hoc multi lignes métiers (client, vente, finance, opération)</li>
+                <li>Amélioration de la décision business et de l'opération data driven grâce à la data science & l'analyse</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">Global e-Business manager - Europ Assistance Group / Generali (03/2007 - 08/2014)</p>
+            <ul>
+                <li>Conception et mise en œuvre d'une solution globale de distribution d'assurance en ligne (Web, Mobile, GDS, CRM,..)</li>
+                <li>Responsable des programmes B2B2C (VSC.com, SAS, Generali, HomeAway, CitiBank, Hop) - 6 ETP</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">eBusiness Consultant - FullSIX Web Agency (01/2006 - 02/2007)</p>
+            <ul>
+                <li>Gestion des RFI/RFP/RFQ incluant la négociation, le plan d'investissement et la gestion des contrats</li>
+                <li>Gestion de la feuille de route produit & communication aux parties prenantes pour AIG, SFR, Nokia, LaPoste, LCI</li>
+                <li>A dirigé les projets de messagerie SFR pour la passerelle SMS/MMS/eMail avec relation commerciale et technique</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">Head of Development Team - Lycos Europe (09/2003 - 09/2005)</p>
+            <ul>
+                <li>Gestion d'une équipe de développement européenne (11 ETP, budget de 1M€), mise en place & plan d'amélioration</li>
+                <li>Exécution d'une feuille de route de projets multiples incluant la stratégie R&D en ligne avec la vision business</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="job-title">Developer, System Architect, Project Manager - Caramail / Lycos Europe (01/2000 - 09/2003)</p>
+        </div>
     </div>
 
     <div class="section">
@@ -103,28 +147,17 @@
             <li>2021 - Devenir un Leader conscient TheCamp + Management des enjeux éthiques et juridiques de l'IA & data</li>
             <li>2016 - Big Data specialization, UC San Diego - Coursera</li>
             <li>2015 - Data Science start program, X Polytechnique executive</li>
+            <li>2015 - Build a startup & lean startup, Udacity + Machine Learning specialization, Université de Washington</li>
+            <li>2014 - Data Science Toolbox & Data programs + Scalable Machine Learning, BerkeleyX - edx</li>
+            <li>2012 - Réussir son étude de Marché, ESSEC Business School</li>
+            <li>2006 - Coacher votre équipe, Piloter et Animer un projet, Négociation grands projets, HEC</li>
             <li>2000 - Maîtrise Mathématique & Informatique, Université de la Rochelle, France</li>
         </ul>
     </div>
 
     <div class="section">
         <h2>Compétences</h2>
-        <ul>
-            <li>Intelligence Artificielle et Machine Learning</li>
-            <li>Data Science et Analytics</li>
-            <li>Gestion de projet et leadership</li>
-            <li>Innovation et transformation digitale</li>
-            <li>Business Intelligence</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Langues</h2>
-        <ul>
-            <li>Français (langue maternelle)</li>
-            <li>Anglais (courant)</li>
-            <li>Espagnol (notions)</li>
-        </ul>
+        <p><strong>Langues:</strong> Français, Anglais courant, Espagnol Notion</p>
     </div>
 
     <div class="section">
